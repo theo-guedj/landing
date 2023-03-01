@@ -1,0 +1,50 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=Roboto:wght@300&display=swap");
+
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+ body {
+	background-color: lightgrey;
+	color: rgb(50,50,50);
+	font-size: 16px;
+	font-family: 'Lato', serif;
+	line-height: 1.6;
+	margin:0px;
+	text-align :center;
+ }
+
+
+h1, h2, h3 {
+	font-weight: bold;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	font-size: 32px;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+h2{
+	color: rgb(47, 47, 47);
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+}
+
+h3{
+	color: rgb(248, 67, 0);
+	font-size: 21px;
+	font-family: 'Lato', serif;
+	text-align: center;
+}
+
+ a{
+ 	text-decoration: none;
+ 	font-family: 'Lato', serif;
+ }
